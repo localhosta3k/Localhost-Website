@@ -7,7 +7,8 @@ import Two from "@/public/images/shape/faq-line.png";
 
 const FaqDark = () => {
   const [imgTab, setImgTab] = useState(0);
-  const Three = "https://gratech.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffaq-image.ff3204fb.png&w=1080&q=75"
+  const Three =
+    "https://gratech.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffaq-image.ff3204fb.png&w=1080&q=75";
 
   return (
     <section className="faq-area sub-bg pt-120 pb-120" id="faq-two">
@@ -26,7 +27,13 @@ const FaqDark = () => {
               <div className="faq__line sway__animation">
                 <Image src={Two} alt="Image" priority />
               </div>
-                <Image width={980} height={1294} src={Three} alt="Image" priority />
+              <Image
+                width={980}
+                height={1294}
+                src={Three}
+                alt="Image"
+                priority
+              />
             </div>
           </div>
           <div className="col-lg-7 mt-60">
@@ -95,7 +102,7 @@ const FaqDark = () => {
                       }
                       onClick={() => setImgTab(imgTab === 0 ? -1 : 0)}
                     >
-                      Where should I incorporate my business?
+                      What do our company do ?
                     </button>
                   </h2>
                   <div
@@ -108,11 +115,11 @@ const FaqDark = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        It is a long established fact that a reader be
-                        distracted by the readable content of a page when
-                        looking a its layout. Many desktop publishing packages
-                        and web page editors now use Lorem Ipsum publishing
-                        packages and web page editors now use Lorem Ipsum
+                        At Localhost, we specialize in providing cutting-edge
+                        software solutions, focusing on web and app development
+                        using JavaScript-based technologies like MERN stack and
+                        React Native, delivering scalable, high-performance
+                        digital experiences.
                       </p>
                     </div>
                   </div>
@@ -136,7 +143,7 @@ const FaqDark = () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      What happens my free trial?
+                      On which technology our company work with?
                     </button>
                   </h2>
                   <div
@@ -149,11 +156,10 @@ const FaqDark = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        It is a long established fact that a reader be
-                        distracted by the readable content of a page when
-                        looking a its layout. Many desktop publishing packages
-                        and web page editors now use Lorem Ipsum publishing
-                        packages and web page editors now use Lorem Ipsum
+                        At Localhost, we work with a range of modern
+                        technologies, primarily focusing on JavaScript-based
+                        stacks like MERN (MongoDB, Express, React, Node.js) and
+                        React Native for web and mobile app development.
                       </p>
                     </div>
                   </div>
@@ -177,7 +183,7 @@ const FaqDark = () => {
                       aria-expanded="false"
                       aria-controls="collapsethree"
                     >
-                      What is included in your services?
+                      What is your price range for a full stack website?
                     </button>
                   </h2>
                   <div
@@ -190,11 +196,11 @@ const FaqDark = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        It is a long established fact that a reader be
-                        distracted by the readable content of a page when
-                        looking a its layout. Many desktop publishing packages
-                        and web page editors now use Lorem Ipsum publishing
-                        packages and web page editors now use Lorem Ipsum
+                        The price for a full-stack website can vary depending on
+                        factors like complexity, features, and design
+                        requirements. We recommend scheduling a meeting to
+                        discuss your needs in detail. Be sure to check out our
+                        current offers!
                       </p>
                     </div>
                   </div>
@@ -218,7 +224,8 @@ const FaqDark = () => {
                       aria-expanded="false"
                       aria-controls="collapseFour"
                     >
-                      What type of company is measured?
+                      Do you offer payment integration and deployment services
+                      as well?
                     </button>
                   </h2>
                   <div
@@ -231,11 +238,9 @@ const FaqDark = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        It is a long established fact that a reader be
-                        distracted by the readable content of a page when
-                        looking a its layout. Many desktop publishing packages
-                        and web page editors now use Lorem Ipsum publishing
-                        packages and web page editors now use Lorem Ipsum
+                        Yes, we provide payment integration services, including
+                        Stripe, and handle deployment on any VPS of your choice,
+                        ensuring a seamless setup for your application.
                       </p>
                     </div>
                   </div>

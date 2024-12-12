@@ -34,7 +34,8 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
     >
       <div className="sidebar__overlay"></div>
       <Link href="/" className="logo mb-40">
-        <Image src={svgLogo} alt="logo" />
+        {/* <Image src={svgLogo} alt="logo" /> */}
+        <div style={{ fontSize: "2rem", color: "white" }}>LOCALHOST</div>
       </Link>
       <div className="sidebar__search mb-30">
         <input type="text" placeholder="Search..." />
@@ -44,65 +45,7 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
         <nav className="mean-nav">
           <ul>
             <li className="has-megamenu">
-              <a
-                className={`drop ${isSubMenuButton("home")}`}
-                onClick={() => handleSubmenu("home")}
-              >
-                Home
-              </a>
-              <ul
-                className={`sub-menu mega-menu menu-image ${isSubMenuOpen(
-                  "home"
-                )}`}
-              >
-                <li>
-                  <div className="image text-center">
-                    <Image src={one} alt="Image" priority />
-                    <div className="btn__group">
-                      <Link href="/" className="btn-one">
-                        Multi Page
-                      </Link>
-                      <Link href="index-one-page" className="btn-one mt-2">
-                        One Page
-                      </Link>
-                    </div>
-                    <h6 className="text-white">Home Page 01</h6>
-                  </div>
-                  <div className="image text-center">
-                    <Image src={two} alt="Image" priority />
-                    <div className="btn__group">
-                      <Link href="index-2" className="btn-one">
-                        Multi Page
-                      </Link>
-                      <Link href="index-2-one-page" className="btn-one mt-2">
-                        One Page
-                      </Link>
-                    </div>
-                    <h6 className="text-white">Home Page 02</h6>
-                  </div>
-                  <div className="image text-center">
-                    <Image src={three} alt="Image" priority />
-                    <div className="btn__group">
-                      <Link href="index-3" className="btn-one">
-                        Multi Page
-                      </Link>
-                      <Link href="index-3-one-page" className="btn-one mt-2">
-                        One Page
-                      </Link>
-                    </div>
-                    <h6 className="text-white">Home Page 03</h6>
-                  </div>
-                  <div className="image text-center">
-                    <Image src={four} alt="Image" priority />
-                    <div className="btn__group">
-                      <Link href="index-dark" className="btn-one">
-                        View Page
-                      </Link>
-                    </div>
-                    <h6 className="text-white">Home Dark</h6>
-                  </div>
-                </li>
-              </ul>
+              <Link href="/">Home</Link>
             </li>
             <li>
               <Link href="about">About</Link>
@@ -115,9 +58,6 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
                 Services
               </a>
               <ul className={`sub-menu ${isSubMenuOpen("services")}`}>
-                <li>
-                  <Link href="service-solutions">IT Solutions</Link>
-                </li>
                 <li>
                   <Link href="service">IT Services</Link>
                 </li>
@@ -134,15 +74,6 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
                 Pages
               </a>
               <ul className={`sub-menu ${isSubMenuOpen("pages")}`}>
-                <li>
-                  <Link href="case">Case Study 01</Link>
-                </li>
-                <li>
-                  <Link href="case-2">Case Study 02</Link>
-                </li>
-                <li>
-                  <Link href="case-details">Case Study Details</Link>
-                </li>
                 <li>
                   <Link href="team">Our Team</Link>
                 </li>
@@ -161,47 +92,24 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
               </ul>
             </li>
             <li>
-              <a
-                className={`drop ${isSubMenuButton("blog")}`}
-                onClick={() => handleSubmenu("blog")}
-              >
-                Blog
-              </a>
-              <ul className={`sub-menu ${isSubMenuOpen("blog")}`}>
-                <li>
-                  <Link href="blog">Blog Grid</Link>
-                </li>
-                <li>
-                  <Link href="blog-standard">Blog Standard</Link>
-                </li>
-                <li>
-                  <Link href="blog-details">Blog Details</Link>
-                </li>
-              </ul>
-            </li>
-            <li>
               <Link href="contact">Contact</Link>
             </li>
           </ul>
         </nav>
       </div>
       <ul className="info pt-40">
-        <li>
-          <i className="fa-solid primary-color fa-location-dot"></i>{" "}
-          <Link href="/">example@example.com</Link>
-        </li>
         <li className="py-2">
           <i className="fa-solid primary-color fa-phone-volume"></i>{" "}
-          <Link href="tel:+208-6666-0112">+208-6666-0112</Link>
+          <Link href="tel:+208-6666-0112">+91 7018120917</Link>
         </li>
         <li>
           <i className="fa-solid primary-color fa-paper-plane"></i>{" "}
-          <Link href="/">info@example.com</Link>
+          <Link href="/">localhost.a3k@gmail.com</Link>
         </li>
       </ul>
       <div className="social-icon mt-20">
-        <Link href="/">
-          <i className="fa-brands fa-facebook-f"></i>
+        <Link href="https://www.instagram.com/localhost_a3k/" target="_blank">
+          <i className="fa-brands fa-instagram"></i>
         </Link>
         <Link href="/">
           <i className="fa-brands fa-twitter"></i>

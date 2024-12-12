@@ -42,7 +42,7 @@ const page = () => {
       <FaqDark />
       <CaseTwo />
       <TestimonialDark />
-      <BlogTwo />
+      {/* <BlogTwo /> */}
       <Quote />
       <FooterTwo />
       <CustomCursor />

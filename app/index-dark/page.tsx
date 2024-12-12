@@ -26,7 +26,7 @@ const page = () => {
       <CaseTwo />
       <TestimonialDark />
       <BlogTwo />
-      <Quote />
+      {/* <Quote /> */}
       <FooterTwo />
       <CustomCursor />
       <ScrollProgressButton />

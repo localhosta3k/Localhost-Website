@@ -93,24 +93,18 @@ const TestimonialDark = () => {
                     <i className="fa-sharp fa-solid fa-star"></i>
                     <i className="fa-sharp fa-solid fa-star"></i>
                     <i className="fa-sharp fa-solid fa-star"></i>
-                    <i className="fa-sharp fa-solid fa-star disable"></i>
+                    <i className="fa-sharp fa-solid fa-star"></i>
                   </div>
                   <p className="mb-30">
-                    “ Consectetur adipiscing elit. Integer nunc viverra laoreet
-                    est the is porta pretium metus aliquam eget maecenas porta
-                    is nunc nul viverra Aenean pulvinar maximus leo ”
+                    “ I had an incredible experience working with your company
+                    You delivered a fantastic Android app in React Native with
+                    such hard work and precision. The app works flawlessly and
+                    looks amazing, exactly as envisioned. ”
                   </p>
                   <div className="d-flex align-items-center gap-3">
-                    <Image
-                      width={78}
-                      height={78}
-                      src={One}
-                      alt="Image"
-                      priority
-                    />
                     <div className="con">
-                      <h4>Alex Rony</h4>
-                      <span>Engineering</span>
+                      <h4>Maurice Wirth</h4>
+                      <span>Client</span>
                     </div>
                   </div>
                   <svg
@@ -140,21 +134,15 @@ const TestimonialDark = () => {
                     <i className="fa-sharp fa-solid fa-star disable"></i>
                   </div>
                   <p className="mb-30">
-                    “ Consectetur adipiscing elit. Integer nunc viverra laoreet
-                    est the is porta pretium metus aliquam eget maecenas porta
-                    is nunc nul viverra Aenean pulvinar maximus leo ”
+                    “ I contacted your company to help refactor React code and
+                    implement SEO for my website. Your company worked
+                    efficiently, delivering high-quality results in a timely
+                    manner. ”
                   </p>
                   <div className="d-flex align-items-center gap-3">
-                    <Image
-                      width={78}
-                      height={78}
-                      src={Two}
-                      alt="Image"
-                      priority
-                    />
                     <div className="con">
                       <h4>Suborna Tarchera</h4>
-                      <span>UI/UX Designer</span>
+                      <span>Client</span>
                     </div>
                   </div>
                   <svg
@@ -181,24 +169,17 @@ const TestimonialDark = () => {
                     <i className="fa-sharp fa-solid fa-star"></i>
                     <i className="fa-sharp fa-solid fa-star"></i>
                     <i className="fa-sharp fa-solid fa-star"></i>
-                    <i className="fa-sharp fa-solid fa-star disable"></i>
+                    <i className="fa-sharp fa-solid fa-star"></i>
                   </div>
                   <p className="mb-30">
-                    “ Consectetur adipiscing elit. Integer nunc viverra laoreet
-                    est the is porta pretium metus aliquam eget maecenas porta
-                    is nunc nul viverra Aenean pulvinar maximus leo ”
+                    “ My experience is awesome. Really talented developers,
+                    really nice to work with. Looking forward to working with
+                    them again. Highly recommend your skills! ”
                   </p>
                   <div className="d-flex align-items-center gap-3">
-                    <Image
-                      width={78}
-                      height={78}
-                      src={Three}
-                      alt="Image"
-                      priority
-                    />
                     <div className="con">
                       <h4>Kawser Ahmed</h4>
-                      <span>Web Designer</span>
+                      <span>Client</span>
                     </div>
                   </div>
                   <svg
@@ -225,112 +206,18 @@ const TestimonialDark = () => {
                     <i className="fa-sharp fa-solid fa-star"></i>
                     <i className="fa-sharp fa-solid fa-star"></i>
                     <i className="fa-sharp fa-solid fa-star"></i>
-                    <i className="fa-sharp fa-solid fa-star disable"></i>
+                    <i className="fa-sharp fa-solid fa-star"></i>
                   </div>
                   <p className="mb-30">
-                    “ Consectetur adipiscing elit. Integer nunc viverra laoreet
-                    est the is porta pretium metus aliquam eget maecenas porta
-                    is nunc nul viverra Aenean pulvinar maximus leo ”
+                    “ Very talented developers and always finishes the job on
+                    time. Would 100% rehire and recommend them for there skills!
+                    Consistently reliable, meeting all deadlines and maintaining
+                    clear communication ”
                   </p>
                   <div className="d-flex align-items-center gap-3">
-                    <Image
-                      width={78}
-                      height={78}
-                      src={One}
-                      alt="Image"
-                      priority
-                    />
                     <div className="con">
                       <h4>Alex Rony</h4>
-                      <span>Engineering</span>
-                    </div>
-                  </div>
-                  <svg
-                    className="coma"
-                    width="50"
-                    height="37"
-                    viewBox="0 0 50 37"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z"
-                      fill="#3C72FC"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="testimonial-two__item dark-mode">
-                  <div className="star mb-10">
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                    <i className="fa-sharp fa-solid fa-star disable"></i>
-                  </div>
-                  <p className="mb-30">
-                    “ Consectetur adipiscing elit. Integer nunc viverra laoreet
-                    est the is porta pretium metus aliquam eget maecenas porta
-                    is nunc nul viverra Aenean pulvinar maximus leo ”
-                  </p>
-                  <div className="d-flex align-items-center gap-3">
-                    <Image
-                      width={78}
-                      height={78}
-                      src={Two}
-                      alt="Image"
-                      priority
-                    />
-                    <div className="con">
-                      <h4>Suborna Tarchera</h4>
-                      <span>UI/UX Designer</span>
-                    </div>
-                  </div>
-                  <svg
-                    className="coma"
-                    width="50"
-                    height="37"
-                    viewBox="0 0 50 37"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M0 0V37L18.75 18.5V0H0ZM31.25 0V37L50 18.5V0H31.25Z"
-                      fill="#3C72FC"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="testimonial-two__item dark-mode">
-                  <div className="star mb-10">
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                    <i className="fa-sharp fa-solid fa-star"></i>
-                    <i className="fa-sharp fa-solid fa-star disable"></i>
-                  </div>
-                  <p className="mb-30">
-                    “ Consectetur adipiscing elit. Integer nunc viverra laoreet
-                    est the is porta pretium metus aliquam eget maecenas porta
-                    is nunc nul viverra Aenean pulvinar maximus leo ”
-                  </p>
-                  <div className="d-flex align-items-center gap-3">
-                    <Image
-                      width={78}
-                      height={78}
-                      src={Three}
-                      alt="Image"
-                      priority
-                    />
-                    <div className="con">
-                      <h4>Kawser Ahmed</h4>
-                      <span>Web Designer</span>
+                      <span>Client</span>
                     </div>
                   </div>
                   <svg

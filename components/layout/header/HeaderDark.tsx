@@ -1,12 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
-import logo from "@/public/images/logo/logo-light.svg";
-import one from "@/public/images/menu/home1-image.jpg";
-import two from "@/public/images/menu/home2-image.jpg";
-import three from "@/public/images/menu/home3-image.jpg";
-import four from "@/public/images/menu/home4-image.jpg";
 import OffCanvasDark from "./OffCanvasDark";
 
 const HeaderDark = () => {
@@ -146,17 +140,17 @@ const HeaderDark = () => {
                   </li>
                   <li>
                     <Link href="/service">Services</Link>
-                    <ul className="sub-menu">
-                      {/* <li>
+                    {/* <ul className="sub-menu">
+                      <li>
                         <Link href="service-solutions">IT Solutions</Link>
-                      </li> */}
+                      </li>
                       <li>
                         <Link href="service">IT Services</Link>
                       </li>
                       <li>
                         <Link href="service-details">Service Details</Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
                     <Link href="/case">Pages</Link>

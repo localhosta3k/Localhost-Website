@@ -12,7 +12,7 @@ import One from "@/public/images/bg/case-two-bg.png";
 
 const CaseTwo = () => {
   const Two =
-    "https://gratech.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcase-two-image1.ec877397.jpg&w=384&q=75";
+  "https://gratech.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcase-two-image1.ec877397.jpg&w=384&q=75";
   const Three =
     "https://gratech.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcase-two-image2.cedc1931.jpg&w=384&q=75";
   const Four =

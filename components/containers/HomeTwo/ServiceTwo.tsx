@@ -15,9 +15,12 @@ import Seven from "@/public/images/icon/service-two-icon2.png";
 import Nine from "@/public/images/icon/service-two-icon3.png";
 
 const ServiceTwo = () => {
-  const Three = "https://gratech.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fservice-image1.8eb36c4d.jpg&w=384&q=75"
-  const Six = "https://gratech.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fservice-image2.07756d6b.jpg&w=384&q=75"
-  const Eight = "https://gratech.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fservice-image3.5ccfa425.jpg&w=384&q=75"
+  const Three =
+    "https://gratech.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fservice-image1.8eb36c4d.jpg&w=384&q=75";
+  const Six =
+    "https://gratech.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fservice-image2.07756d6b.jpg&w=384&q=75";
+  const Eight =
+    "https://gratech.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fservice-image3.5ccfa425.jpg&w=384&q=75";
   return (
     <section
       className="service-two-area secondary-bg pt-120 pb-120"
@@ -121,7 +124,13 @@ const ServiceTwo = () => {
               <div className="swiper-slide">
                 <div className="service-two__item">
                   <div className="image">
-                    <Image width={370} height={250} src={Three} alt="shape" priority />
+                    <Image
+                      width={370}
+                      height={250}
+                      src={Three}
+                      alt="shape"
+                      priority
+                    />
                   </div>
                   <div className="service-two__content">
                     <div className="icon">
@@ -136,8 +145,9 @@ const ServiceTwo = () => {
                       </Link>
                     </h4>
                     <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
+                      Ensuring database security with robust encryption, access
+                      controls, and monitoring to protect sensitive data and
+                      prevent unauthorized access.
                     </p>
                     <Link className="read-more-btn" href="service-details">
                       Read More{" "}
@@ -151,7 +161,13 @@ const ServiceTwo = () => {
               <div className="swiper-slide">
                 <div className="service-two__item">
                   <div className="image">
-                    <Image width={370} height={250} src={Six} alt="shape" priority />
+                    <Image
+                      width={370}
+                      height={250}
+                      src={Six}
+                      alt="shape"
+                      priority
+                    />
                   </div>
                   <div className="service-two__content">
                     <div className="icon">
@@ -166,8 +182,9 @@ const ServiceTwo = () => {
                       </Link>
                     </h4>
                     <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
+                      Offering expert IT consultancy to optimize technology
+                      strategies, enhance business performance, and provide
+                      tailored solutions for digital transformation.
                     </p>
                     <Link className="read-more-btn" href="service-details">
                       Read More{" "}
@@ -181,7 +198,13 @@ const ServiceTwo = () => {
               <div className="swiper-slide">
                 <div className="service-two__item">
                   <div className="image">
-                    <Image width={370} height={250} src={Eight} alt="shape" priority />
+                    <Image
+                      width={370}
+                      height={250}
+                      src={Eight}
+                      alt="shape"
+                      priority
+                    />
                   </div>
                   <div className="service-two__content">
                     <div className="icon">
@@ -196,8 +219,9 @@ const ServiceTwo = () => {
                       </Link>
                     </h4>
                     <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
+                      Creating innovative, user-friendly mobile applications
+                      tailored to your business needs, ensuring seamless
+                      performance, scalability, and enhanced user engagement.
                     </p>
                     <Link className="read-more-btn" href="service-details">
                       Read More{" "}
@@ -211,7 +235,13 @@ const ServiceTwo = () => {
               <div className="swiper-slide">
                 <div className="service-two__item">
                   <div className="image">
-                    <Image width={370} height={250} src={Three} alt="shape" priority />
+                    <Image
+                      width={370}
+                      height={250}
+                      src={Three}
+                      alt="shape"
+                      priority
+                    />
                   </div>
                   <div className="service-two__content">
                     <div className="icon">
@@ -226,8 +256,9 @@ const ServiceTwo = () => {
                       </Link>
                     </h4>
                     <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
+                      Ensuring database security with robust encryption, access
+                      controls, and monitoring to protect sensitive data and
+                      prevent unauthorized access.
                     </p>
                     <Link className="read-more-btn" href="service-details">
                       Read More{" "}
@@ -241,7 +272,13 @@ const ServiceTwo = () => {
               <div className="swiper-slide">
                 <div className="service-two__item">
                   <div className="image">
-                    <Image width={370} height={250} src={Six} alt="shape" priority />
+                    <Image
+                      width={370}
+                      height={250}
+                      src={Six}
+                      alt="shape"
+                      priority
+                    />
                   </div>
                   <div className="service-two__content">
                     <div className="icon">
@@ -256,8 +293,9 @@ const ServiceTwo = () => {
                       </Link>
                     </h4>
                     <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
+                      Offering expert IT consultancy to optimize technology
+                      strategies, enhance business performance, and provide
+                      tailored solutions for digital transformation.
                     </p>
                     <Link className="read-more-btn" href="service-details">
                       Read More{" "}
@@ -271,7 +309,13 @@ const ServiceTwo = () => {
               <div className="swiper-slide">
                 <div className="service-two__item">
                   <div className="image">
-                    <Image width={370} height={250} src={Eight} alt="shape" priority />
+                    <Image
+                      width={370}
+                      height={250}
+                      src={Eight}
+                      alt="shape"
+                      priority
+                    />
                   </div>
                   <div className="service-two__content">
                     <div className="icon">
@@ -286,8 +330,9 @@ const ServiceTwo = () => {
                       </Link>
                     </h4>
                     <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
+                      Creating innovative, user-friendly mobile applications
+                      tailored to your business needs, ensuring seamless
+                      performance, scalability, and enhanced user engagement.
                     </p>
                     <Link className="read-more-btn" href="service-details">
                       Read More{" "}

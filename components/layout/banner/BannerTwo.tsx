@@ -96,7 +96,8 @@ const BannerTwo = () => {
               <div
                 className="slide-bg"
                 style={{
-                  backgroundImage: "url(https://gratech.vercel.app/images/banner/banner-two-image1.jpg)"
+                  backgroundImage:
+                    "url(https://gratech.vercel.app/images/banner/banner-two-image1.jpg)",
                 }}
               ></div>
               <div className="container">
@@ -120,9 +121,9 @@ const BannerTwo = () => {
                     data-delay=".7s"
                     className="mt-20"
                   >
-                    Consectetur adipiscing elit Aenean scelerisque at augue
-                    vitae consequat <br /> quisque eget congue velit in cursus
-                    leo Sed sodales
+                    We transform innovative concepts into cutting-edge
+                    technology, providing tailored IT solutions like web
+                    development for your business success
                   </p>
                   <Link
                     data-animation="fadeInUp"
@@ -195,7 +196,8 @@ const BannerTwo = () => {
               <div
                 className="slide-bg"
                 style={{
-                  backgroundImage: "url(https://gratech.vercel.app/images/banner/banner-two-image2.jpg)"
+                  backgroundImage:
+                    "url(https://gratech.vercel.app/images/banner/banner-two-image2.jpg)",
                 }}
               ></div>
               <div className="container">
@@ -219,9 +221,9 @@ const BannerTwo = () => {
                     data-delay=".7s"
                     className="mt-20"
                   >
-                    Consectetur adipiscing elit Aenean scelerisque at augue
-                    vitae consequat <br /> quisque eget congue velit in cursus
-                    leo Sed sodales
+                    We transform innovative concepts into cutting-edge
+                    technology, providing tailored IT solutions like web
+                    development for your business success
                   </p>
                   <Link
                     data-animation="fadeInUp"
@@ -320,9 +322,9 @@ const BannerTwo = () => {
                     data-delay=".7s"
                     className="mt-20"
                   >
-                    Consectetur adipiscing elit Aenean scelerisque at augue
-                    vitae consequat <br /> quisque eget congue velit in cursus
-                    leo Sed sodales
+                    We transform innovative concepts into cutting-edge
+                    technology, providing tailored IT solutions like web
+                    development for your business success
                   </p>
                   <Link
                     data-animation="fadeInUp"

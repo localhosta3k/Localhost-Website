@@ -107,7 +107,7 @@ const Testimonial = () => {
                 data-aos-delay="200"
                 data-aos-duration="1500"
               >
-                What They Say About Our
+                What They Say About Us
               </h2>
               <p
                 className=""
@@ -115,9 +115,9 @@ const Testimonial = () => {
                 data-aos-delay="400"
                 data-aos-duration="1500"
               >
-                It is a long established fact that a reader will be distracted
-                the readable content of a page when looking at layout the point
-                of using lorem the is Ipsum less normal distribution of letters.
+                `What They Say About Us` highlights genuine client reviews
+                showcasing our excellence in web, mobile, and custom software
+                solutions.
               </p>
             </div>
             <div
@@ -171,7 +171,7 @@ const Testimonial = () => {
                         />
                         <div className="testi-info">
                           <h4>Suborna Tarchera</h4>
-                          <p>Web Developer</p>
+                          <p>Client</p>
                           <div className="star mt-1">
                             <i className="fa-sharp fa-solid fa-star"></i>
                             <i className="fa-sharp fa-solid fa-star"></i>
@@ -182,10 +182,10 @@ const Testimonial = () => {
                         </div>
                       </div>
                       <p className="mt-30">
-                        “ Consectetur adipiscing elit. Integer nunc viverra
-                        laoreet est the is porta pretium metus aliquam eget
-                        maecenas porta is nunc viverra Aenean pulvinar maximus
-                        leo ”
+                        “ I contacted your company to help refactor React code
+                        and implement SEO for my website. Your company worked
+                        efficiently, delivering high-quality results in a timely
+                        manner. ”
                       </p>
                     </div>
                   </div>
@@ -216,7 +216,7 @@ const Testimonial = () => {
                         />
                         <div className="testi-info">
                           <h4>Alex Rony</h4>
-                          <p>Web Designer</p>
+                          <p>Client</p>
                           <div className="star mt-1">
                             <i className="fa-sharp fa-solid fa-star"></i>
                             <i className="fa-sharp fa-solid fa-star"></i>
@@ -227,10 +227,10 @@ const Testimonial = () => {
                         </div>
                       </div>
                       <p className="mt-30">
-                        “ Consectetur adipiscing elit. Integer nunc viverra
-                        laoreet est the is porta pretium metus aliquam eget
-                        maecenas porta is nunc viverra Aenean pulvinar maximus
-                        leo ”
+                        “ Very talented developers and always finishes the job
+                        on time. Would 100% rehire and recommend them for there
+                        skills! Consistently reliable, meeting all deadlines and
+                        maintaining clear communication ”
                       </p>
                     </div>
                   </div>

@@ -11,7 +11,8 @@ import Six from "@/public/images/icon/about-icon2.png";
 
 const ChooseArea = () => {
   const [isOpen, setOpen] = useState(false);
-  const Four = "https://gratech.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fchoose-image1.d6cfbf49.png&w=1080&q=75"
+  const Four =
+    "https://gratech.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fchoose-image1.d6cfbf49.png&w=1080&q=75";
   return (
     <>
       <section className="choose-area sub-bg pt-120 pb-120">
@@ -111,7 +112,7 @@ const ChooseArea = () => {
                     </div>
                     <div className="content">
                       <h4 className="mb-1">Best Services</h4>
-                      <p>Scelerisque augue the consequat sodales</p>
+                      <p>We provide smooth running software.</p>
                     </div>
                   </div>
                 </div>
@@ -121,8 +122,8 @@ const ChooseArea = () => {
                       <Image src={Six} alt="icon" priority />
                     </div>
                     <div className="content">
-                      <h4 className="mb-1">24/7 Call Support</h4>
-                      <p>Scelerisque augue the consequat sodales</p>
+                      <h4 className="mb-1">Dedicated Support</h4>
+                      <p>We have dedicated team too help you out.</p>
                     </div>
                   </div>
                 </div>
@@ -180,7 +181,13 @@ const ChooseArea = () => {
             </div>
             <div className="col-lg-6 d-none d-lg-block">
               <div className="choose__image image">
-                <Image width={893} height={672} src={Four} alt="image" priority />
+                <Image
+                  width={893}
+                  height={672}
+                  src={Four}
+                  alt="image"
+                  priority
+                />
               </div>
             </div>
           </div>
