@@ -78,9 +78,9 @@ const OffCanvasDark = ({ toggleMenu, handleToggleMenu }: any) => {
                 <li>
                   <Link href="team-details">Team Details</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="pricing">Pricing</Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href="faq">FAQ&apos;s</Link>
                 </li>
