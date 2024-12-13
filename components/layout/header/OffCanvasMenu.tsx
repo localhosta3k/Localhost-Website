@@ -35,7 +35,7 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
       <div className="sidebar__overlay"></div>
       <Link href="/" className="logo mb-40">
         {/* <Image src={svgLogo} alt="logo" /> */}
-        <div style={{ fontSize: "2rem", color: "white" }}>Localhost</div>
+        <div style={{ fontSize: "2rem", color: "white" }}>LOCALHOST</div>
       </Link>
       <div className="sidebar__search mb-30">
         <input type="text" placeholder="Search..." />
