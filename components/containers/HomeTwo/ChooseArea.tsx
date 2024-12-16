@@ -197,7 +197,7 @@ const ChooseArea = () => {
         channel="youtube"
         youtube={{ mute: 0, autoplay: 0 }}
         isOpen={isOpen}
-        videoId="iVqz_4M5mA0"
+        videoId="CF6cgJnr57E"
         onClose={() => setOpen(false)}
       />
     </>

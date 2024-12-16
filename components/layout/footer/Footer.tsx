@@ -89,34 +89,34 @@ const Footer = () => {
             <h3 className="footer-title">IT Solution</h3>
             <ul>
               <li>
-                <Link href="service-details">
-                  <i className="fa-regular fa-angles-right me-1"></i> IT
-                  Management
-                </Link>
+                {/* <Link href="service-details"> */}
+                <i className="fa-regular fa-angles-right me-1"></i> IT
+                Management
+                {/* </Link> */}
               </li>
               <li>
-                <Link href="service-details">
-                  <i className="fa-regular fa-angles-right me-1"></i> SEO
-                  Optimization
-                </Link>
+                {/* <Link href="service-details"> */}
+                <i className="fa-regular fa-angles-right me-1"></i> SEO
+                Optimization
+                {/* </Link> */}
               </li>
               <li>
-                <Link href="service-details">
-                  <i className="fa-regular fa-angles-right me-1"></i> Web
-                  Development
-                </Link>
+                {/* <Link href="service-details"> */}
+                <i className="fa-regular fa-angles-right me-1"></i> Web
+                Development
+                {/* </Link> */}
               </li>
               <li>
-                <Link href="service-details">
-                  <i className="fa-regular fa-angles-right me-1"></i> App / IOS
-                  Dev
-                </Link>
+                {/* <Link href="service-details"> */}
+                <i className="fa-regular fa-angles-right me-1"></i> App / IOS
+                Dev
+                {/* </Link> */}
               </li>
               <li>
-                <Link href="service-details">
-                  <i className="fa-regular fa-angles-right me-1"></i> eCommerce
-                  Dev
-                </Link>
+                {/* <Link href="service-details"> */}
+                <i className="fa-regular fa-angles-right me-1"></i> eCommerce
+                Dev
+                {/* </Link> */}
               </li>
             </ul>
           </div>
@@ -140,12 +140,12 @@ const Footer = () => {
                   Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="pricing">
                   <i className="fa-regular fa-angles-right me-1"></i> Pricing
                   Plan
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="team">
                   <i className="fa-regular fa-angles-right me-1"></i> Our Team
@@ -173,7 +173,11 @@ const Footer = () => {
                 <i className="fa-duotone fa-phone"></i>
                 <div className="info">
                   <h5>Phone Call:</h5>
-                  <p>+91 ,9973780798 +91 7018120917, +91 9351972847</p>
+                  <p>
+                    +91 9973780798,
+                    <br /> +91 7018120917,
+                    <br /> +91 9351972847
+                  </p>
                 </div>
               </li>
             </ul>

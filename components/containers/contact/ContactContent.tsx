@@ -1,8 +1,52 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import One from "@/public/images/icon/section-title.png";
+import { useState } from "react";
+import emailjs from "emailjs-com";
 
 const ContactContent = () => {
+  const [formData, setFormData] = useState({
+    email: "",
+    name: "",
+    message: "",
+  });
+
+  const handleChange = (e: any, name: string) => {
+    e.preventDefault();
+    const { value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const sendEmail = async (e: any) => {
+    e.preventDefault();
+    if (!formData.email || !formData.message || !formData.name) {
+      return;
+    }
+
+    const templateParams = {
+      from_email: formData.email,
+      message: formData.message,
+      from_name: formData.name,
+    };
+
+    emailjs
+      .send(
+        "service_mmc693m",
+        "template_im91i4p",
+        templateParams,
+        "7rGdqb6JoBcl4riqe"
+      )
+      .then(
+        (result) => {
+          setFormData({ email: "", message: "", name: "" });
+        },
+        (error) => {
+          console.error(error);
+        }
+      );
+  };
+
   return (
     <section className="contact-area pt-120 pb-120">
       <div className="container">
@@ -158,7 +202,9 @@ const ContactContent = () => {
                     <div className="col-6">
                       <label htmlFor="name">Your Name*</label>
                       <input
+                        required
                         id="name"
+                        onChange={(e) => handleChange(e, "name")}
                         className="bg-transparent bor"
                         type="text"
                         placeholder="Your Name"
@@ -167,6 +213,8 @@ const ContactContent = () => {
                     <div className="col-6">
                       <label htmlFor="email">Your Email*</label>
                       <input
+                        required
+                        onChange={(e) => handleChange(e, "email")}
                         className="bg-transparent bor"
                         id="email"
                         type="email"
@@ -177,6 +225,8 @@ const ContactContent = () => {
                   <div className="text-area">
                     <label htmlFor="massage">Write Message*</label>
                     <textarea
+                      required
+                      onChange={(e) => handleChange(e, "message")}
                       className="bg-transparent bor"
                       id="massage"
                       placeholder="Write Message"
@@ -184,10 +234,10 @@ const ContactContent = () => {
                   </div>
                   <div className="btn-two">
                     <span className="btn-circle"></span>
-                    <Link href="/" className="btn-one">
+                    <div onClick={sendEmail} className="btn-one">
                       Send Message{" "}
                       <i className="fa-regular fa-arrow-right-long"></i>
-                    </Link>
+                    </div>
                   </div>
                 </form>
               </div>

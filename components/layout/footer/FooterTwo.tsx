@@ -90,34 +90,34 @@ const FooterTwo = () => {
             <h3 className="footer-title">IT Solution</h3>
             <ul>
               <li>
-                <Link href="service-details">
+                {/* <Link href="service-details"> */}
                   <i className="fa-regular fa-angles-right me-1"></i> IT
                   Management
-                </Link>
+                {/* </Link> */}
               </li>
               <li>
-                <Link href="service-details">
+                {/* <Link href="service-details"> */}
                   <i className="fa-regular fa-angles-right me-1"></i> SEO
                   Optimization
-                </Link>
+                {/* </Link> */}
               </li>
               <li>
-                <Link href="service-details">
+                {/* <Link href="service-details"> */}
                   <i className="fa-regular fa-angles-right me-1"></i> Web
                   Development
-                </Link>
+                {/* </Link> */}
               </li>
               <li>
-                <Link href="service-details">
+                {/* <Link href="service-details"> */}
                   <i className="fa-regular fa-angles-right me-1"></i> App / IOS
                   Dev
-                </Link>
+                {/* </Link> */}
               </li>
               <li>
-                <Link href="service-details">
+                {/* <Link href="service-details"> */}
                   <i className="fa-regular fa-angles-right me-1"></i>
                   eCommerce Dev
-                </Link>
+                {/* </Link> */}
               </li>
             </ul>
           </div>
@@ -141,12 +141,12 @@ const FooterTwo = () => {
                   Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="pricing">
                   <i className="fa-regular fa-angles-right me-1"></i> Pricing
                   Plan
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="team">
                   <i className="fa-regular fa-angles-right me-1"></i> Our Team
