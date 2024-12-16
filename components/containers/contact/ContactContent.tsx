@@ -4,6 +4,7 @@ import Image from "next/image";
 import One from "@/public/images/icon/section-title.png";
 import { useState } from "react";
 import emailjs from "emailjs-com";
+import { toast } from "react-toastify";
 
 const ContactContent = () => {
   const [formData, setFormData] = useState({
@@ -40,9 +41,11 @@ const ContactContent = () => {
       .then(
         (result) => {
           setFormData({ email: "", message: "", name: "" });
+          toast.success("Message sent successfully");
         },
         (error) => {
           console.error(error);
+          toast.error("Some error occured");
         }
       );
   };

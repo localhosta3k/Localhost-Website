@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "@/public/styles/style.scss";
 import InitAnimations from "@/components/layout/InitAnimations";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export const metadata: Metadata = {
   title: "LocalHost | Software Development & IT Solutions Company",
@@ -42,6 +44,7 @@ export default function RootLayout({
       <body>
         {children}
         <InitAnimations />
+        <ToastContainer />
       </body>
     </html>
   );

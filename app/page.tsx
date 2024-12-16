@@ -31,23 +31,25 @@ const page = () => {
     //   <CustomCursor />
     //   <ScrollProgressButton />
     // </>
-    <div className="darken">
-      <HeaderDark />
-      <BannerTwo />
-      {/* <Brand /> */}
-      <AboutTwo />
-      <ServiceTwo />
-      <ChooseArea />
-      {/* <Team /> */}
-      <FaqDark />
-      <CaseTwo />
-      <TestimonialDark />
-      {/* <BlogTwo /> */}
-      <Quote />
-      <FooterTwo />
-      <CustomCursor />
-      <ScrollProgressButton />
-    </div>
+    <>
+      <div className="darken">
+        <HeaderDark />
+        <BannerTwo />
+        {/* <Brand /> */}
+        <AboutTwo />
+        <ServiceTwo />
+        <ChooseArea />
+        {/* <Team /> */}
+        <FaqDark />
+        <CaseTwo />
+        <TestimonialDark />
+        {/* <BlogTwo /> */}
+        <Quote />
+        <FooterTwo />
+        <CustomCursor />
+        <ScrollProgressButton />
+      </div>
+    </>
   );
 };
 
