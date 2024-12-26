@@ -174,7 +174,7 @@ const FooterTwo = () => {
                 <i className="fa-duotone fa-phone"></i>
                 <div className="info">
                   <h5>Phone Call:</h5>
-                  <p>
+                  <p style={{ width: "150px" }}>
                     +91 9973780798,
                     <br /> +91 7018120917,
                     <br /> +91 9351972847
